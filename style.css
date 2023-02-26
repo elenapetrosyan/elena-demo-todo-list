@@ -1,0 +1,43 @@
+body {
+    background-image: url('./images/green-curve-frame.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+}
+
+.add-button {
+    background-color: #5c973f;
+}
+
+.task {
+    background: #c1dcab;
+}
+
+.first-line-of-card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-container {
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+.trash-container {
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+
+
+.select-task-checkbox:hover {
+    cursor: pointer;
+}
+
+.delete-selected-button {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
