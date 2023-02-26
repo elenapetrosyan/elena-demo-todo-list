@@ -1,3 +1,4 @@
+//test kuku
 const addTaskButton = document.querySelector('.add-task-btn');
 const newTaskInput = document.querySelector('.new-task-input');
 const tasksRow = document.querySelector('.tasks-row');
